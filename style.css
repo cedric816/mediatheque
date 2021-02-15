@@ -1,0 +1,62 @@
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+header{
+    width: 50%;
+}
+h1{
+    border: solid black 2px;
+    padding: 20px;
+    text-align: center;
+}
+h2{
+    font-size: 26px;
+    margin-top: 30px;
+}
+.film{
+    width: 50%;
+    border-bottom: solid black 2px;
+    margin-bottom: 20px;
+}
+a{
+    font-size: 18px;
+    font-weight: bold;
+    text-decoration: none;
+    border-right: solid black 2px;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: lightgray;
+}
+a:hover{
+    background-color: rgb(158, 47, 47);
+    color: white;
+}
+.lien-simple{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    padding: 0px;
+    width: 120px;
+    height: 120px;
+    font-size: 16px;
+    background-color: lightgray;
+    padding: 20px;
+    border-radius: 100%;
+}
+.lien-simple:hover{
+    background-color: rgb(158, 47, 47);
+    color: white;
+}
+form{
+    display: flex;
+    flex-direction: column;
+}
+input, textarea{
+    margin-bottom: 20px;
+}
+label{
+    font-weight: bold;
+}
